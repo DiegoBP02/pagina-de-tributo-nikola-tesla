@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+}
+
+.tophead{
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+header{
+    height: 800px;
+    width: 100%;
+    background-color: #000;
+    margin: 0;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    height: 500px;
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.title h1{
+        margin-bottom: 15px;
+        font-family: 'Playfair Display', serif;
+        font-size: 50px;
+        font-weight: 200;
+        letter-spacing: 18px;
+        font-style: normal;
+        color: white;
+}
+
+.subtitle{
+    font-family: 'Crimson Text', serif;
+    margin: 0;
+    font-size: 36px;
+    letter-spacing: 8px;
+    font-style: italic;
+    color: #989898;
+}
+
+.line{
+    width: 40px;
+    height: 40px;
+    border-bottom: 2px solid rgb(189, 134, 67);
+}
+
+.date{
+    margin: 0;
+    font-family: 'Crimson Text', serif;
+    font-size: 24px;
+    font-style: normal;
+    letter-spacing: 4px;
+    color: #fff;
+}
+
+.sec{
+    width: 1000px;
+    height: 1600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.title2{
+    margin-bottom: 15px;
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+.txt{
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 180%;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+
+.foto{
+    display: flex;
+    align-self: flex-end;
+    width: 1000px !important;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.quo{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 930px;
+}
+
+.bquo{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.nik{
+    text-align: start;
+    margin-top: 0;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 3.25px;
+    font-style: italic;
+}
+
+.foot{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: flex-end;
+    width: 1000px;
+}
+
+.da{
+    font-size: 16px;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
